@@ -4,7 +4,9 @@ import Layout from "../components/layout"
 function Contact() {
   return (
     <div>
-      <Layout>this is the Contact page</Layout>
+      <Layout>
+        <h3>this is the Contact page</h3>
+      </Layout>
     </div>
   )
 }

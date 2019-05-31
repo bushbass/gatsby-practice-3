@@ -4,7 +4,9 @@ import Layout from "../components/layout"
 function Blog() {
   return (
     <div>
-      <Layout>this is the Blog page</Layout>
+      <Layout>
+        <h3>this is the Blog page</h3>
+      </Layout>
     </div>
   )
 }

@@ -1,15 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
+import headerStyles from "./header.module.scss"
 
 const Header = () => (
-  <div>
+  <nav>
     <h1>Alex's Awesome Gatsby Site</h1>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link className={headerStyles.link} to="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link className={headerStyles.link} to="/about">
+          About
+        </Link>
       </li>
       <li>
         <Link to="/contact">Contact</Link>
@@ -18,6 +23,6 @@ const Header = () => (
         <Link to="/blog">Blog</Link>
       </li>
     </ul>
-  </div>
+  </nav>
 )
 export default Header
